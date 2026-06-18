@@ -1,0 +1,63 @@
+/* === Theme: Material Card ===
+   White card with colored left border by language
+*/
+.cb-theme-material { background: var(--joplin-background-color, #ffffff); color: var(--joplin-color, #212121); border: none; border-left: 4px solid #1976d2; border-radius: 0 8px 8px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06); transition: box-shadow 0.2s ease; }
+.cb-theme-material:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08); }
+.cb-theme-material .cb-header { display: none; }
+.cb-theme-material pre { padding: 14px 18px !important; }
+
+.cb-theme-material[data-lang="python"], .cb-theme-material[data-lang="py"] { border-left-color: #3776ab; }
+.cb-theme-material[data-lang="javascript"], .cb-theme-material[data-lang="js"],
+.cb-theme-material[data-lang="typescript"], .cb-theme-material[data-lang="ts"] { border-left-color: #f7df1e; }
+.cb-theme-material[data-lang="rust"], .cb-theme-material[data-lang="rs"] { border-left-color: #dea584; }
+.cb-theme-material[data-lang="go"], .cb-theme-material[data-lang="golang"] { border-left-color: #00add8; }
+.cb-theme-material[data-lang="java"] { border-left-color: #b07219; }
+.cb-theme-material[data-lang="ruby"], .cb-theme-material[data-lang="rb"] { border-left-color: #cc342d; }
+.cb-theme-material[data-lang="shell"], .cb-theme-material[data-lang="sh"],
+.cb-theme-material[data-lang="bash"] { border-left-color: #4eaa25; }
+.cb-theme-material[data-lang="css"] { border-left-color: #1572b6; }
+.cb-theme-material[data-lang="html"] { border-left-color: #e34f26; }
+.cb-theme-material[data-lang="sql"] { border-left-color: #e38c00; }
+.cb-theme-material[data-lang="json"] { border-left-color: #292929; }
+.cb-theme-material[data-lang="yaml"], .cb-theme-material[data-lang="yml"] { border-left-color: #cb171e; }
+
+/* — Syntax colors (Material Dark inspired) — */
+.cb-theme-material .hljs-keyword { color: #7c4dff; }
+.cb-theme-material .hljs-string { color: #50a14f; }
+.cb-theme-material .hljs-comment { color: #a0a0a0; font-style: italic; }
+.cb-theme-material .hljs-number { color: #e45649; }
+.cb-theme-material .hljs-literal { color: #7c4dff; }
+.cb-theme-material .hljs-type { color: #00897b; }
+.cb-theme-material .hljs-title { color: #d81b60; }
+.cb-theme-material .hljs-title.class_ { color: #00897b; }
+.cb-theme-material .hljs-title.function_ { color: #d81b60; }
+.cb-theme-material .hljs-title.function_.invoke__ { color: #d81b60; }
+.cb-theme-material .hljs-built_in { color: #00897b; }
+.cb-theme-material .hljs-params { color: #212121; }
+.cb-theme-material .hljs-meta { color: #7c4dff; }
+.cb-theme-material .hljs-meta.keyword_ { color: #7c4dff; }
+.cb-theme-material .hljs-meta.string_ { color: #50a14f; }
+.cb-theme-material .hljs-attr { color: #1976d2; }
+.cb-theme-material .hljs-attribute { color: #1976d2; }
+.cb-theme-material .hljs-selector-tag { color: #d32f2f; }
+.cb-theme-material .hljs-selector-class { color: #d81b60; }
+.cb-theme-material .hljs-selector-id { color: #d81b60; }
+.cb-theme-material .hljs-selector-pseudo { color: #7c4dff; }
+.cb-theme-material .hljs-selector-attr { color: #1976d2; }
+.cb-theme-material .hljs-tag { color: #d32f2f; }
+.cb-theme-material .hljs-name { color: #d32f2f; }
+.cb-theme-material .hljs-variable { color: #212121; }
+.cb-theme-material .hljs-variable.language_ { color: #7c4dff; }
+.cb-theme-material .hljs-operator { color: #212121; }
+.cb-theme-material .hljs-punctuation { color: #a0a0a0; }
+.cb-theme-material .hljs-subst { color: #212121; }
+.cb-theme-material .hljs-regexp { color: #50a14f; }
+.cb-theme-material .hljs-link { color: #1976d2; text-decoration: underline; }
+.cb-theme-material .hljs-symbol { color: #e45649; }
+.cb-theme-material .hljs-deletion { color: #d32f2f; }
+.cb-theme-material .hljs-addition { color: #388e3c; }
+.cb-theme-material .hljs-quote { color: #a0a0a0; font-style: italic; }
+.cb-theme-material .hljs-section { color: #7c4dff; }
+.cb-theme-material .hljs-bullet { color: #e45649; }
+.cb-theme-material .hljs-code { color: #50a14f; }
+.cb-theme-material .hljs-formula { color: #212121; }

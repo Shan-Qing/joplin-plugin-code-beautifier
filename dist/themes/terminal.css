@@ -1,0 +1,59 @@
+/* === Theme: Modern Terminal ===
+   Inspired by Warp / iTerm2 — sleek menu bar terminal style
+*/
+.cb-theme-terminal { background: linear-gradient(180deg, #1a1b26 0%, #16161e 100%); color: #a9b1d6; border: 1px solid #2a2a3a; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
+.cb-theme-terminal .cb-header { background: #1e1e2e; border-bottom: 1px solid #2a2a3a; padding: 7px 14px; }
+.cb-theme-terminal .cb-dots { gap: 0; }
+.cb-theme-terminal .cb-dot { width: 28px; height: 24px; border-radius: 0; background: transparent !important; border-right: 1px solid #2a2a3a; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #555; }
+.cb-theme-terminal .cb-dot-red::after { content: '≡'; color: #666; }
+.cb-theme-terminal .cb-dot-yellow::after { display: none; }
+.cb-theme-terminal .cb-dot-green::after { display: none; }
+.cb-theme-terminal .cb-dot-yellow, .cb-theme-terminal .cb-dot-green { width: 36px; }
+.cb-theme-terminal .cb-dot-yellow::after { content: '+'; color: #888; }
+.cb-theme-terminal .cb-dot-green::after { content: '×'; color: #888; width: 44px; }
+.cb-theme-terminal .cb-dot-red { border-radius: 0; }
+.cb-theme-terminal .cb-dot-yellow { border-radius: 0; }
+.cb-theme-terminal .cb-dot-green { border-radius: 0; width: 44px; }
+.cb-theme-terminal .cb-lang { color: #565f89; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.73em; }
+.cb-theme-terminal pre { color: #a9b1d6; padding: 18px 20px !important; }
+
+/* — Syntax colors (Tokyo Night inspired) — */
+.cb-theme-terminal .hljs-keyword { color: #9d7cd8; }
+.cb-theme-terminal .hljs-string { color: #9ece6a; }
+.cb-theme-terminal .hljs-comment { color: #565f89; font-style: italic; }
+.cb-theme-terminal .hljs-number { color: #ff9e64; }
+.cb-theme-terminal .hljs-literal { color: #ff9e64; }
+.cb-theme-terminal .hljs-type { color: #2ac3de; }
+.cb-theme-terminal .hljs-title { color: #7aa2f7; }
+.cb-theme-terminal .hljs-title.class_ { color: #2ac3de; }
+.cb-theme-terminal .hljs-title.function_ { color: #7aa2f7; }
+.cb-theme-terminal .hljs-title.function_.invoke__ { color: #7aa2f7; }
+.cb-theme-terminal .hljs-built_in { color: #7dcfff; }
+.cb-theme-terminal .hljs-params { color: #a9b1d6; }
+.cb-theme-terminal .hljs-meta { color: #9d7cd8; }
+.cb-theme-terminal .hljs-meta.keyword_ { color: #9d7cd8; }
+.cb-theme-terminal .hljs-meta.string_ { color: #9ece6a; }
+.cb-theme-terminal .hljs-attr { color: #e0af68; }
+.cb-theme-terminal .hljs-attribute { color: #e0af68; }
+.cb-theme-terminal .hljs-selector-tag { color: #f7768e; }
+.cb-theme-terminal .hljs-selector-class { color: #e0af68; }
+.cb-theme-terminal .hljs-selector-id { color: #e0af68; }
+.cb-theme-terminal .hljs-selector-pseudo { color: #9d7cd8; }
+.cb-theme-terminal .hljs-selector-attr { color: #e0af68; }
+.cb-theme-terminal .hljs-tag { color: #f7768e; }
+.cb-theme-terminal .hljs-name { color: #f7768e; }
+.cb-theme-terminal .hljs-variable { color: #c0caf5; }
+.cb-theme-terminal .hljs-variable.language_ { color: #9d7cd8; }
+.cb-theme-terminal .hljs-operator { color: #89ddff; }
+.cb-theme-terminal .hljs-punctuation { color: #89ddff; }
+.cb-theme-terminal .hljs-subst { color: #c0caf5; }
+.cb-theme-terminal .hljs-regexp { color: #9ece6a; }
+.cb-theme-terminal .hljs-link { color: #7aa2f7; text-decoration: underline; }
+.cb-theme-terminal .hljs-symbol { color: #ff9e64; }
+.cb-theme-terminal .hljs-deletion { color: #f7768e; }
+.cb-theme-terminal .hljs-addition { color: #9ece6a; }
+.cb-theme-terminal .hljs-quote { color: #565f89; font-style: italic; }
+.cb-theme-terminal .hljs-section { color: #9d7cd8; }
+.cb-theme-terminal .hljs-bullet { color: #e0af68; }
+.cb-theme-terminal .hljs-code { color: #9ece6a; }
+.cb-theme-terminal .hljs-formula { color: #c0caf5; }

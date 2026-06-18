@@ -1,0 +1,53 @@
+/* === Theme: macOS Window ===
+   Classic Mac terminal look with red/yellow/green dots
+*/
+.cb-theme-macos { background: #1e1e1e; color: #d4d4d4; border: 1px solid #333; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+.cb-theme-macos .cb-header { background: #2d2d2d; border-bottom: 1px solid #3a3a3a; }
+.cb-theme-macos .cb-dot-red { background: #ff5f57; }
+.cb-theme-macos .cb-dot-yellow { background: #febc2e; }
+.cb-theme-macos .cb-dot-green { background: #28c840; }
+.cb-theme-macos .cb-lang { color: #999; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.cb-theme-macos pre { color: #d4d4d4; }
+.cb-theme-macos code::selection,
+.cb-theme-macos pre::selection { background: rgba(255,255,255,0.2); }
+
+/* — Syntax colors (VS Code Dark+ inspired) — */
+.cb-theme-macos .hljs-keyword { color: #569cd6; }
+.cb-theme-macos .hljs-string { color: #ce9178; }
+.cb-theme-macos .hljs-comment { color: #6a9955; font-style: italic; }
+.cb-theme-macos .hljs-number { color: #b5cea8; }
+.cb-theme-macos .hljs-literal { color: #569cd6; }
+.cb-theme-macos .hljs-type { color: #4ec9b0; }
+.cb-theme-macos .hljs-title { color: #dcdcaa; }
+.cb-theme-macos .hljs-title.class_ { color: #4ec9b0; }
+.cb-theme-macos .hljs-title.function_ { color: #dcdcaa; }
+.cb-theme-macos .hljs-title.function_.invoke__ { color: #dcdcaa; }
+.cb-theme-macos .hljs-built_in { color: #4ec9b0; }
+.cb-theme-macos .hljs-params { color: #d4d4d4; }
+.cb-theme-macos .hljs-meta { color: #569cd6; }
+.cb-theme-macos .hljs-meta.keyword_ { color: #569cd6; }
+.cb-theme-macos .hljs-meta.string_ { color: #ce9178; }
+.cb-theme-macos .hljs-attr { color: #9cdcfe; }
+.cb-theme-macos .hljs-attribute { color: #9cdcfe; }
+.cb-theme-macos .hljs-selector-tag { color: #569cd6; }
+.cb-theme-macos .hljs-selector-class { color: #d7ba7d; }
+.cb-theme-macos .hljs-selector-id { color: #d7ba7d; }
+.cb-theme-macos .hljs-selector-pseudo { color: #569cd6; }
+.cb-theme-macos .hljs-selector-attr { color: #9cdcfe; }
+.cb-theme-macos .hljs-tag { color: #569cd6; }
+.cb-theme-macos .hljs-name { color: #569cd6; }
+.cb-theme-macos .hljs-variable { color: #9cdcfe; }
+.cb-theme-macos .hljs-variable.language_ { color: #569cd6; }
+.cb-theme-macos .hljs-operator { color: #d4d4d4; }
+.cb-theme-macos .hljs-punctuation { color: #d4d4d4; }
+.cb-theme-macos .hljs-subst { color: #d4d4d4; }
+.cb-theme-macos .hljs-regexp { color: #ce9178; }
+.cb-theme-macos .hljs-link { color: #569cd6; text-decoration: underline; }
+.cb-theme-macos .hljs-symbol { color: #b5cea8; }
+.cb-theme-macos .hljs-deletion { color: #f44747; }
+.cb-theme-macos .hljs-addition { color: #6a9955; }
+.cb-theme-macos .hljs-quote { color: #6a9955; font-style: italic; }
+.cb-theme-macos .hljs-section { color: #569cd6; }
+.cb-theme-macos .hljs-bullet { color: #d7ba7d; }
+.cb-theme-macos .hljs-code { color: #ce9178; }
+.cb-theme-macos .hljs-formula { color: #d4d4d4; }
